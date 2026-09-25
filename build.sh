@@ -184,7 +184,7 @@ else
     fi
 fi
 
-lunch statix_$TARGET-$RELEASE-$VARIANT || exit_on_error
+lunch penguin_$TARGET-$RELEASE-$VARIANT || exit_on_error
 
 if [ "$CLEAN_BUILD" = "true" ]; then
     clean_build
